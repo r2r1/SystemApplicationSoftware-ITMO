@@ -1,0 +1,32 @@
+lesson1:
+  address: ул.Ломоносова, д.9, лит. Е
+  finish_time: 09:50
+  name: Иностранный язык
+  room_number: 3209
+  start_time: '8:20'
+  teacher_name: Зельницкая Екатерина Юрьевна
+  type: Практика
+lesson2:
+  address: ул.Ломоносова, д.9, лит. Е
+  finish_time: '11:30'
+  name: Иностранный язык
+  room_number: 3209
+  start_time: '10:00'
+  teacher_name: Зельницкая Екатерина Юрьевна
+  type: Практика
+lesson3:
+  address: Кронверкский пр., д.49, лит.А
+  finish_time: '15:00'
+  name: Математический анализ
+  room_number: 1405
+  start_time: '13:30'
+  teacher_name: Правдин Константин Владимирович
+  type: Лекция
+lesson4:
+  address: Кронверкский пр., д.49, лит.А
+  finish_time: '16:50'
+  name: Математический анализ
+  room_number: 2416
+  start_time: '15:20'
+  teacher_name: Правдин Константин Владимирович
+  type: Практика
