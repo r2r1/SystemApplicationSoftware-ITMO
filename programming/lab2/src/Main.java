@@ -13,11 +13,11 @@ public class Main {
         Zweilous zweilous = new Zweilous("Zweilous", 1);
         Hydreigon hydreigon = new Hydreigon("Hydreigon", 1);
 
-        b.addAlly(corsola);
+        b.addAlly(deino);
         b.addAlly(swablu);
         b.addAlly(altaria);
 
-        b.addFoe(deino);
+        b.addFoe(corsola);
         b.addFoe(zweilous);
         b.addFoe(hydreigon);
 

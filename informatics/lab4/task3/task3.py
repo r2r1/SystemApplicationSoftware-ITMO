@@ -1,6 +1,6 @@
 import re
 
-json_file =  open("data\data.json", 'r', encoding="utf-8") 
+json_file =  open("informatics/lab4/data\data.json", 'r', encoding="utf-8") 
 
 first_line = False
 flagNewBlock = False
@@ -28,5 +28,5 @@ for line in json_file:
             check_tab -= 1  
         if new_line != "":
             content += new_line 
-with open("task3/task_3.yaml", 'w', encoding="utf-8") as f_out:
+with open("informatics/lab4/task3/task_3.yaml", 'w', encoding="utf-8") as f_out:
    f_out.write(content)
