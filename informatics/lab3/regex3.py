@@ -8,11 +8,12 @@ import re
      
 def findGoodWord(sequene: str) -> str: 
     try:
-        pattern = r"[a-zA-Zа-яА-Я\d._]+@[\w]+\.[a-zA-Za-яА-Я]{2,}"
+        pattern = r"[a-zA-Zа-яА-Я\d_]*[.]{0,1}[a-zA-Zа-яА-Я\d_]+@[a-zA-Zа-яА-Я\d]+\.[a-zA-Za-яА-Я]{2,}"
         match = re.findall(pattern, sequene)
-        dogIndex = len(match[0])-match[0][::-1].find("@")-1
-        postServe = match[0][dogIndex+1:]
-        return postServe 
+        if len(sequene) == len("".join(match)):
+            dogIndex = len(match[0])-match[0][::-1].find("@")-1
+            postServe = match[0][dogIndex+1:]
+            return postServe 
     except:
         return "FAAAAAAAAAAAAIL!!!!!!!!!!!!!!"
 
