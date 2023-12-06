@@ -14,6 +14,8 @@ def findGoodWord(sequene: str) -> str:
             dogIndex = len(match[0])-match[0][::-1].find("@")-1
             postServe = match[0][dogIndex+1:]
             return postServe 
+        return "FAAAAAAAAAAAAIL!!!!!!!!!!!!!!"
+
     except:
         return "FAAAAAAAAAAAAIL!!!!!!!!!!!!!!"
 
