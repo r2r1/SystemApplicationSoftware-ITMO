@@ -34,10 +34,13 @@ for line in json_file:
                         else:
                             components[i] += "\n"
                         if ("{" not in components[i])  and (flagNewBlock == True):
-                            new_line += ("\t"*check_tab ) + components[i]
+                            new_line += ("\t"*(check_tab-1)) + components[i]
                             flagNewBlock = False
                         elif  not components[0] == '}' :
-                            new_line += ("\t"*check_tab )+ components[i]
+                            new_line += ("\t"*(check_tab-1))+ components[i]
+                        
+                        if "{" in new_line:
+                            new_line =  new_line.replace("}", "\n")
         else:   
             key = components[0] 
             value = ' '.join(components[1:])  
@@ -47,6 +50,8 @@ for line in json_file:
                     flagNewBlock = False 
                 elif  not components[0] == '}' :
                     new_line += ("\t"*check_tab) +  key + " " + value  + "\n"
+                if "{" in new_line:
+                    new_line =  new_line.replace("{", "\n")
         if components[0] == '}':
             check_tab -= 1  
         if new_line != "":

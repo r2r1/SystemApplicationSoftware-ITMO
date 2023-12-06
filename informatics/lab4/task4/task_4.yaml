@@ -1,7 +1,7 @@
 ---
-	day1:
-		lesson1:
-			start_time:			8:20
+	day1: 
+		lesson1: 
+			start_time: 8:20
 			finish_time: 09:50
 			type: Практика
 			name: Иностранный язык
