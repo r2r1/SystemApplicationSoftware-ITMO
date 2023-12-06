@@ -1,27 +1,20 @@
 {
-   "day1":
-   {
-      "lesson1":    
+   "day1":   {      "lesson1":    
           {
             "start_time": "8:20",
-            "finish_time": "09:50",
-            "type": "Практика",
+            "finish_time": "09:50",            "type": "Практика",
             "name": "Иностранный язык",
-            "teacher_name": "Зельницкая Екатерина Юрьевна",
+            "teacher_name": "Зельницкая: Екатерина Юрьевна",
             "room_number": 3209,
             "address": "ул.Ломоносова, д.9, лит. Е"
-         },
-      "lesson2":
-         {
-            "start_time": "10:00",
+         },      "lesson2":         {             "start_time": "10:00",
             "finish_time": "11:30",
             "type": "Практика",
             "name": "Иностранный язык",
-            "teacher_name": "Зельницкая Екатерина Юрьевна",
+            "teacher_name": "Зельни цкая Екатерина Юрьевна",
             "room_number": 3209,
             "address": "ул.Ломоносова, д.9, лит. Е"
-         },
-      "lesson3":
+         },      "lesson3":
          {
             "start_time": "13:30",
             "finish_time": "15:00",
@@ -43,9 +36,7 @@
          }
       },
 
-"day2":
-{
-      "lesson1":
+"day2": [
          {
             "start_time": "8:20",
             "finish_time": "09:50",
@@ -55,7 +46,6 @@
             "room_number": 3209,
             "address": "ул.Ломоносова, д.9, лит. Е"
          },
-      "lesson2":
          {
             "start_time": "10:00",
             "finish_time": "11:30",
@@ -65,7 +55,6 @@
             "room_number": 3209,
             "address": "ул.Ломоносова, д.9, лит. Е"
          },
-      "lesson3":
          {
             "start_time": "13:30",
             "finish_time": "15:00",
@@ -75,7 +64,6 @@
             "room_number": 1405,
             "address": "Кронверкский пр., д.49, лит.А"
          },
-      "lesson4":
          {
             "start_time": "15:20",
             "finish_time": "16:50",
@@ -85,5 +73,5 @@
             "room_number": 2416,
             "address": "Кронверкский пр., д.49, лит.А"
          }
-      }
+]
 }
