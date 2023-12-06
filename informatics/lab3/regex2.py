@@ -7,6 +7,7 @@
 import re
 
 def findGoodWord(sequene: str) -> str: 
+    sequene = sequene.replace("-","")
     try:
         pattern = r"\b\w*[аяуюоеёэиы]{2}\w*\b[,\- ]+\b([аеёиоуыэюя]*[бвгджзйклмнпрстфхцчшщ]){1,3}[аеёиоуыэюя]*\b"
         match = re.search(pattern, sequene).group()
