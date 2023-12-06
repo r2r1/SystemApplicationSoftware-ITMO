@@ -18,9 +18,9 @@ def findGoodWord(sequene: str) -> str:
 
 sequene1 = " ое нг-нгш, о е прпр, оп"
 sequene2 = "сотка по лабе - военник в канаве"
-sequene3 = "дуетом пели песни"
+sequene3 = "дуе-том пе-ли песни"
 sequene4 = "я помню белые обои..."
-sequene5 = "Степан_Дмитриевич, можно соточку?)"
+sequene5 = "Степан Дмитриевич, мжнн соточку?)"
 
 
 print(findGoodWord(sequene1))
