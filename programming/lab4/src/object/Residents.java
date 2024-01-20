@@ -25,6 +25,11 @@ public class Residents implements PersonalConditionInterface, RumorInterface {
             Workers.workersQuantity = workersQuantity;
         }
 
+        @Override
+        public String toString() {
+            return "рабочие";
+        }
+
         public static int getWorkersQuantity() {
             return workersQuantity;
         }
