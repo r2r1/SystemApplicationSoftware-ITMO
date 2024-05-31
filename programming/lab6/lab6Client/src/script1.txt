@@ -1,0 +1,2 @@
+info
+execute_script src/script.txt
