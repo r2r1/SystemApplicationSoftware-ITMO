@@ -1,0 +1,22 @@
+execute_script src/script.txt
+insert
+имя
+1 11
+true
+21.1
+полковник1
+100
+фантастический
+AGGRESSOR
+BOLTGUN
+update 1
+я
+1 11
+false
+50.31
+полковник1
+200
+фантастический
+INCEPTOR
+BOLT_RIFLE
+show
